@@ -1,0 +1,68 @@
+/* General font for all elements */
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+form {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+/* Textarea container styling */
+.textarea-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Counter styling */
+.counter {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Textarea styling */
+#txt1,
+#txt2,
+#txt3 {
+  width: 450px;
+  height: 90px;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+#txt2,
+#txt3 {
+  height: 60px;
+}
+::placeholder {
+  opacity: 0.5;
+}
+#submit {
+  padding: 10px 30px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}

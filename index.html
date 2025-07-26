@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restricted Textarea</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Write your Message</h1>
+
+        <div class="textarea-container">
+          <textarea
+            id="txt1"
+            maxlength="250"
+            placeholder="Start typing..."
+          ></textarea>
+          <span class="counter" id="counter1">
+            <span class="start">0</span> / <span class="end">250</span>
+          </span>
+        </div>
+
+        <div class="textarea-container">
+          <textarea
+            id="txt2"
+            maxlength="250"
+            placeholder="Start typing..."
+          ></textarea>
+          <span class="counter" id="counter2">
+            <span class="start">0</span> / <span class="end">250</span>
+          </span>
+        </div>
+
+        <div class="textarea-container">
+          <textarea
+            id="txt3"
+            maxlength="250"
+            placeholder="Start typing..."
+          ></textarea>
+          <span class="counter" id="counter3">
+            <span class="start">0</span> / <span class="end">250</span>
+          </span>
+        </div>
+
+        <br />
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
